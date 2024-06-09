@@ -1,14 +1,24 @@
 const body = document.querySelector('body');
 const blogContainer = document.querySelector('main');
-const themeSwitcher = document.querySelector('#theme-switcher');
 const container = document.querySelector('.container');
-
+const toggleButton = document.querySelector('#toggle-theme');
+const allEl = document.querySelector('*');
 
 
 let mode = 'light';
+//Dark mode button
 
-//themeSwitcher.addEventListener('click, function() {
-  //  ');
+toggleButton.addEventListener('click', function() {
+if (mode === 'light') {
+    mode = 'dark';
+    allEl.classList.add('dark');
+}  else {
+    mode= 'light';
+    allEl.classList.remove('dark');
+}
+}); 
+
+
 
 //pulling input data from local storage into new blog page
  const storedEntries = JSON.parse(localStorage.getItem('blogposts'));

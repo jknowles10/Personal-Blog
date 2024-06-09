@@ -11,6 +11,12 @@ font-family: "Tiny5", sans-serif;
 color:#175E5D;
 }  
 
+.dark * {
+background-color: #175E5D;
+color: aquamarine;
+border-color: aquamarine;
+
+}
 
 #main-header {
 font-family: "Tiny5", sans-serif;
@@ -28,6 +34,7 @@ font-size: 30px;
 }
 
 body {
+  margin:0;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -50,13 +57,16 @@ border-radius: 20px;
 text-align: center;
 margin: 3px; 
 
+.dark article {
+  border-color: aquamarine;
+}
+
 }
 .container {
  margin:0 auto;
  text-align: center;
  justify-content: center;
  border: 2px; 
- border-color: black;
 
 }
 
