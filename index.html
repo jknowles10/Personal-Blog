@@ -4,13 +4,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Personal Blog </title>
+<title> Bloggify Blog Creator </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Assets/css/style.css"> 
 </head>
 
 
 <body>
     <div class="container">
-    <h1> Bloggify </h1>
+    <h1 id="main-header"> Bloggify Blog Creator </h1>
     <form method="POST">
         <div class="input-group">
             <label for="username"> Username</label> 
@@ -22,11 +26,16 @@
         </div>
         <div id="input-group">
           <label for="content"> Content </label> 
-          <input type="text area" name="content" id="content" placeholder="Enter your blog content" />
+          <textarea placeholder="Enter your blog content" id="content" name="content"></textarea>
         </div>
         <div>
             <button id="submit"> Submit </button>
         </div>
+    <div id="feedback">
+
+
+    </div>
+
     </form>
 
     </div>
