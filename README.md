@@ -34,6 +34,7 @@ THEN I am presented with a link to the developer's portfolio.
 
 ## Usage
 To view the webpage please visit the following link:
+[link](https://jknowles10.github.io/Personal-Blog/)
 
 Here is a link to my repository:
 [link](https://github.com/jknowles10/Personal-Blog)

@@ -51,5 +51,5 @@ content.textContent= `${storedEntries[i].content}`;
 article.appendChild(content);
 blogContainer.appendChild(article);
 
- }
+ };
 
