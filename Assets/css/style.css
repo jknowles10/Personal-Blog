@@ -19,6 +19,7 @@ border-color: aquamarine;
 }
 
 #main-header {
+margin-top:0;
 font-family: "Tiny5", sans-serif;
 font-size: 50px;
 margin-top: 10px;
@@ -35,7 +36,6 @@ font-size: 30px;
 
 body {
   margin:0;
-display: flex;
 justify-content: center;
 flex-wrap: wrap;
 height:100vh;
@@ -48,6 +48,8 @@ width:100%;
 display: flex;
 flex-wrap:wrap;
 flex-direction: row;
+align-items: center;
+justify-content:center;
 
 }
 article {
@@ -56,7 +58,7 @@ border: solid 2px;
 border-color: #175E5D; 
 border-radius: 20px;
 text-align: center;
-margin: 3px; 
+margin: 3px;
 
 .dark article {
   border-color: aquamarine;
@@ -67,7 +69,7 @@ margin: 3px;
  margin:0 auto;
  text-align: center;
  justify-content: center;
- border: 2px; 
+ border: 2px;
 
 }
 
