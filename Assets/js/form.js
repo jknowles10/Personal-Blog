@@ -23,7 +23,7 @@ if (inputUsername.value === '') {
 }  else { getPost();
     console.log(entries);
     displayMessage('success', 'Post Submitted');
-
+//navigates to blog page when submitted
     window.location.href="blog.html";
 
 }});
@@ -33,10 +33,8 @@ function displayMessage (type, message) {
 }
 
 
-
-//let entries = [];
 function getPost() {
-
+//saves user entered data to local storage
 const post = {
 entry: inputUsername.value, 
 title: inputTitle.value,

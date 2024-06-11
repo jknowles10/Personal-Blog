@@ -2,6 +2,7 @@ const body = document.querySelector('body');
 const blogContainer = document.querySelector('main');
 const container = document.querySelector('.container');
 const toggleButton = document.querySelector('#toggle-theme');
+const homeButton = document.querySelector('#home');
 const allEl = document.querySelector('*');
 
 
@@ -17,7 +18,12 @@ if (mode === 'light') {
     allEl.classList.remove('dark');
 }
 }); 
-
+//Home button to return to landing page
+homeButton.addEventListener('click', function(event){
+event.preventDefault();
+window.location.href="index.html";
+    
+});;;
 
 
 //pulling input data from local storage into new blog page
@@ -27,10 +33,7 @@ if (mode === 'light') {
 
  for (let i=0; i < storedEntries.length; i++) {
  
-   // entries[i].entry
-    //entries[i].title
-    //entries[i].content 
-
+  
  const article= document.createElement('article');
  const postSubject = document.createElement('h2');
  const userName = document.createElement('h3');

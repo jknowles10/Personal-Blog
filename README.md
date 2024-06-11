@@ -1,12 +1,13 @@
-# Personal-Blog
+## Personal-Blog
 
 
-##User Story
-AS A marketing student,
-I WANT a personal blog
-SO THAT I can showcase my thoughts and experiences.
+## Description
+This is a challenge assignment for UT Austin's Coding Bootcamp. This week we covered Web APIs and the task was to build a two-page website where users can input and view blog posts. The landing page should contain a form that captures user data such as username, title and blog content. The blog page should show completed posts that have been stored in the local storage. Included on the blog page is a button that toggles a light/dark mode and a button that returns to the landing page.
 
-##Acceptance Criteria 
+## User Story
+AS A marketing student, I WANT a personal blog SO THAT I can showcase my thoughts and experiences.
+
+## Acceptance Criteria 
 GIVEN a personal blog
 WHEN I load the app,
 THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
@@ -31,10 +32,22 @@ THEN I can see the title, the content, and the author of the post.
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 
-##Usage
+## Usage
+To view the webpage please visit the following link:
 
-##Mock-Up
+Here is a link to my repository:
+[link](https://github.com/jknowles10/Personal-Blog)
 
-##License
+## Mock-Up
 
-##Credits
+![Preview](/Assets/PersonalBlog1.png)
+![Preview](/Assets/PersonalBlog2.png)
+![Preview](/Assets/PersonalBlog3.png)
+
+## License
+
+MIT License
+
+## Credits
+
+Font: https://fonts.google.com/specimen/Tiny5
